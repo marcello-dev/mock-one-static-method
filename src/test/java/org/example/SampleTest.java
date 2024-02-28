@@ -10,6 +10,8 @@ import static org.mockito.Mockito.mockStatic;
 
 public class SampleTest {
     @Test
+    // This test fails in Mockito versions <3.7.x
+    // Change the version in the pom.xml file to verify
     public void singleStaticMethodTest() {
         try (MockedStatic<Sample> mocked = mockStatic(Sample.class, Mockito.CALLS_REAL_METHODS)) {
             mocked.when(() -> Sample.method1(anyString())).thenReturn("bar");
