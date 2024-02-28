@@ -5,5 +5,5 @@ This project shows:
 - The issue in Mockito versions <3.7.x: mocked static methods are actually called. 
 
 More info:
-- https://stackoverflow.com/questions/63840898/how-to-mock-just-one-static-method-in-a-class-using-mockito/63841319?noredirect=1#comment137629611_63841319
+- https://stackoverflow.com/questions/63840898/how-to-mock-just-one-static-method-in-a-class-using-mockito/63841319
 
